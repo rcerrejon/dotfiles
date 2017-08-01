@@ -5,6 +5,7 @@ scripts &amp; configs
 
 - **atom:** keybindings, plugins, themes..
 - **macos:** starter scripts, configs..
+- **oh-my-zsh:** aliases, configs..
 
 
 ---
