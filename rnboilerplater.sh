@@ -12,7 +12,8 @@ cat << EOF >> .eslintrc
 {
   extends: "rallycoding",
   rules: {
-    arrow-body-style: 0
+    arrow-body-style: 0,
+    "global-require": 0
   },
   "globals": {
     "fetch": false
