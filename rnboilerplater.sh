@@ -1,8 +1,7 @@
 #!/bin/bash
 # By Rafael Cerrejon (c)2017
 
-read -p "Enter the Name of the App:" projectName
-echo "Starting Boilerplate for ${projectName}"
+echo "Starting Boilerplate for your App"
 
 # .eslintrc
 if [ -e .eslintrc ]
