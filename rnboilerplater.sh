@@ -28,9 +28,9 @@ mkdir src/assets && mkdir src/components
 echo "folder tree created succesfully"
 
 # install packages
-npm install -D eslint@^3.19.0
-npm install -D eslint-config-rallycoding
-npm install -D flow-bin
+yarn add -D eslint@^3.19.0
+yarn add -D eslint-config-rallycoding
+yarn add -D flow-bin
 
 echo "3 packages installed"
 echo "Thanks for use this Script!"
