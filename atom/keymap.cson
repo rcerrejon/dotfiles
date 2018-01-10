@@ -37,3 +37,6 @@
 
 'atom-text-editor:not([mini])':
   'ctrl-e': 'editor:delete-line'
+
+'.platform-darwin':
+  'cmd-1': 'tree-view:reveal-active-file'
