@@ -97,6 +97,7 @@ alias lanup='sudo ifconfig en0 up'
 alias feierabend='sudo shutdown -h now'
 alias andsim='~/Library/Android/sdk/tools/emulator -avd Nexus &'
 alias openxcode='open ios/*.xcodeproj'
+alias gdc='git diff --check'
 
 source "/Users/rafael/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
