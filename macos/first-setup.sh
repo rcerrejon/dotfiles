@@ -10,6 +10,7 @@ brew install \
     node \
     unrar \
     wget \
+    exa \    
     zsh \
     zsh-completions \
     zsh-history-substring-search \
@@ -17,10 +18,9 @@ brew install \
 
 brew cask install google-chrome
 brew cask install iterm2
-brew cask install skype
 brew cask install spectacle
 brew cask install spotify
-brew cask install atom
+
 
 brew cleanup --force
 
