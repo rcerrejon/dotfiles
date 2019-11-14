@@ -1,12 +1,11 @@
-# dotfiles
-scripts &amp; configs
+# :floppy_disk: dotfiles
+:mag: scripts &amp; configs
 
 ### Tree
 
-- **atom:** keybindings, plugins, themes..
-- **macos:** starter scripts, configs..
-- **oh-my-zsh:** aliases, configs..
+- :apple: **macos:** starter scripts, configs..
+- :computer: **oh-my-zsh:** aliases, configs..
 
 
 ---
-Rafael Cerrejon
+:walking: Rafael Cerrejon
