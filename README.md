@@ -1,7 +1,7 @@
-# :floppy_disk: dotfiles
-:mag: scripts &amp; configs
+# Dotfiles
+:floppy_disk: scripts &amp; configs
 
-### Tree
+# Tree
 
 - :apple: **macos:** starter scripts, configs..
 - :computer: **oh-my-zsh:** aliases, configs..
