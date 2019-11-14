@@ -1,11 +1,10 @@
 # Dotfiles
-:floppy_disk: scripts &amp; configs
+- :floppy_disk: scripts &amp; configs
 
 # Tree
 
 - :apple: **macos:** starter scripts, configs..
 - :computer: **oh-my-zsh:** aliases, configs..
 
-
----
-:walking: Rafael Cerrejon
+# By
+- :walking: Rafael Cerrejon
