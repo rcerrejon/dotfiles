@@ -38,20 +38,24 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
-alias myip='curl -s ip.appspot.com | pbcopy;pbpaste'
 alias flush_dns='sudo dscacheutil -flushcache'
 alias hosts='code /etc/hosts'
 alias landown='sudo ifconfig en0 down'
 alias lanup='sudo ifconfig en0 up'
-alias feierabend='sudo shutdown -h now'
 alias andsim='~/Library/Android/sdk/tools/emulator -avd Pixel'
 alias openxcode='open ios/*.xcworkspace'
-alias gdc='git diff --check'
+alias editzsh='code ~/.zshrc'
 alias shakeit='adb shell input keyevent 82'
-alias podi='npx pod-install ios'
-alias podintel="cd ios && arch -x86_64 pod install && .."
 alias cleanDerivedData='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
-alias l='exa -lha'
+alias l='eza -la -x --no-user --group-directories-first --icons=always --octal-permissions --no-permissions'
+
+# GIT ALIAS
+alias gdc='git diff --check'
+alias gst='git status'
+alias gaa='git add --all'
+alias gcmsg='git commit -m'
+alias gco='git switch'
+alias ggpush='git push origin "$(git rev-parse --abbrev-ref HEAD)"'
 
 # Set Spaceship ZSH as a prompt
 fpath=($fpath "/Users/rafael/.zfunctions")
